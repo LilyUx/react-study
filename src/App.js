@@ -1,23 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+/*
+ * @Description: Page:
+ * @Author: xuling
+ * @Date: 2020-12-08 19:41:16
+ * @LastEditTime: 2020-12-31 15:02:56
+ * @LastEditors: xuling
+ * @UpdateLogs: logs
+ */
+import "antd/dist/antd.css";
+import AntdFormPage from "./pages/AntdFormPage";
+import ContextPage from "./pages/ContextPage";
+import HocPage from "./pages/HocPage";
+import MyRCFieldForm from "./pages/MyRcFieldForm";
+import ReactReduxPage from "./pages/ReactReduxPage";
+import ReactReduxHookPage from "./pages/ReactReduxHookPage";
+import ReduxPage from "./pages/ReduxPage";
+import HooksPage from "./pages/HooksPage";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <ContextPage />
+			<HocPage /> */}
+      {/* <AntdFormPage /> */}
+      {/* <MyRCFieldForm /> */}
+      {/* <ReduxPage /> */}
+      {/* <ReactReduxPage /> */}
+      {/* <ReactReduxHookPage /> */}
+      <HooksPage />
     </div>
   );
 }
