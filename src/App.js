@@ -2,7 +2,7 @@
  * @Description: Page:
  * @Author: xuling
  * @Date: 2020-12-08 19:41:16
- * @LastEditTime: 2020-12-31 15:02:56
+ * @LastEditTime: 2020-12-31 16:32:05
  * @LastEditors: xuling
  * @UpdateLogs: logs
  */
@@ -25,8 +25,8 @@ function App() {
       {/* <MyRCFieldForm /> */}
       {/* <ReduxPage /> */}
       {/* <ReactReduxPage /> */}
-      {/* <ReactReduxHookPage /> */}
-      <HooksPage />
+      <ReactReduxHookPage />
+      {/* <HooksPage /> */}
     </div>
   );
 }

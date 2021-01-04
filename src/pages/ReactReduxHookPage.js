@@ -1,5 +1,6 @@
 import React, { useCallback } from "react";
-import { useSelector, useDispatch } from "react-redux";
+// import { useSelector, useDispatch } from "react-redux";
+import { useSelector, useDispatch } from "../kReactRedux/index";
 
 // useSelector
 // useDispatch

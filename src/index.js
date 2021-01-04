@@ -2,7 +2,7 @@
  * @Description: Page:
  * @Author: xuling
  * @Date: 2020-12-08 19:41:16
- * @LastEditTime: 2020-12-30 18:31:37
+ * @LastEditTime: 2020-12-31 16:37:17
  * @LastEditors: xuling
  * @UpdateLogs: logs
  */
@@ -10,7 +10,8 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
-import { Provider } from "react-redux";
+// import { Provider } from "react-redux";
+import { Provider } from "./kReactRedux/index";
 import store from "./store/";
 
 ReactDOM.render(

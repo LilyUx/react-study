@@ -1,8 +1,9 @@
 import React, { Component } from "react";
-import { connect } from "react-redux";
-import { bindActionCreators } from "../kReactRedux/";
+// import { connect } from "react-redux";
+import { connect, bindActionCreators } from "../kReactRedux/";
 // import { bindActionCreators } from "redux";
 
+// hoc 高阶组件
 @connect(
   // 1. mapStateToProps
   // state => ({ count: state.count })
@@ -43,7 +44,7 @@ class ReactReduxPage extends Component {
     const { count, add, minus } = this.props;
     return (
       <div>
-        <h3>ReduxPage</h3>
+        <h3>ReactReduxPage</h3>
         <div>{count}</div>
         <button onClick={this.add}>ADD</button>
         <button onClick={add}>Asy ADD</button>

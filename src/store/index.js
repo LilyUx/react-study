@@ -18,9 +18,9 @@ export const counterReducer = (state = 0, { type, payload = 1 }) => {
 };
 
 const store = createStore(
-  combineReducers({ count: counterReducer }),
+  combineReducers({ count: counterReducer })
   // counterReducer,
-  applyMiddleware(thunk, logger, promise)
+  // applyMiddleware(thunk, logger, promise)
 );
 
 // 处理异步的thunk
